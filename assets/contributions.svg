@@ -399,7 +399,7 @@
   <rect x="942" y="214" width="13" height="13" rx="2" fill="#111A26" opacity="0.85"><title>2026-08-29 : 0</title></rect>
   <rect x="958" y="118" width="13" height="13" rx="2" fill="#111A26" opacity="0.85"><title>2026-08-30 : 0</title></rect>
   <rect x="958" y="134" width="13" height="13" rx="2" fill="#17A3BD"><title>2026-08-31 : 2</title></rect>
-  <rect x="958" y="150" width="13" height="13" rx="2" fill="#0E5A6B"><title>2026-09-01 : 1</title></rect>
+  <rect x="958" y="150" width="13" height="13" rx="2" fill="#22E7F5"><title>2026-09-01 : 3</title></rect>
   <text x="966" y="256" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="10" fill="#4C5A6B">moins</text>
   <rect x="1006" y="246" width="11" height="11" rx="2" fill="#111A26"/>
   <rect x="1022" y="246" width="11" height="11" rx="2" fill="#0E5A6B"/>
@@ -409,7 +409,7 @@
   <text x="1112" y="256" text-anchor="end" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="10" fill="#4C5A6B">plus</text>
   <rect x="88" y="272" width="1024" height="1" fill="#22E7F5" opacity="0.22"/>
   <text x="126" y="296" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="10" letter-spacing="2" fill="#4C5A6B">TOTAL</text>
-  <text x="126" y="324" font-family="Impact, Haettenschweiler, Arial Black, sans-serif" font-size="26" letter-spacing="1" fill="#FF2E97">21</text>
+  <text x="126" y="324" font-family="Impact, Haettenschweiler, Arial Black, sans-serif" font-size="26" letter-spacing="1" fill="#FF2E97">23</text>
   <text x="376" y="296" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="10" letter-spacing="2" fill="#4C5A6B">JOURS ACTIFS</text>
   <text x="376" y="324" font-family="Impact, Haettenschweiler, Arial Black, sans-serif" font-size="26" letter-spacing="1" fill="#EAF6FF">8</text>
   <text x="626" y="296" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="10" letter-spacing="2" fill="#4C5A6B">S&#201;RIE MAX</text>
