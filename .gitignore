@@ -1,3 +1,6 @@
 node_modules/
 .DS_Store
 Thumbs.db
+_*.png
+_*.html
+_*.json
