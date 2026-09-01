@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Timothee Berthelot, developpeur full-stack">
+  <rect width="1200" height="300" fill="#F7F5F0"/>
+
+  <!-- filet haut -->
+  <rect x="96" y="58" width="1008" height="1" fill="#D9D3C6"/>
+
+  <!-- nom -->
+  <text x="96" y="158" font-family="Georgia, Iowan Old Style, Times New Roman, serif"
+        font-size="72" letter-spacing="-1.8" fill="#17160F">Timothée Berthelot</text>
+
+  <!-- trait d'encre, deux passes -->
+  <path d="M 100 180 C 190 173, 316 185, 404 177 C 492 169, 560 182, 646 175"
+        fill="none" stroke="#17160F" stroke-width="2.6" stroke-linecap="round" opacity="0.9"/>
+  <path d="M 108 186 C 214 181, 330 189, 428 183 C 508 178, 566 186, 612 182"
+        fill="none" stroke="#17160F" stroke-width="1.1" stroke-linecap="round" opacity="0.32"/>
+
+  <!-- meta gauche / droite, meme ligne de base -->
+  <text x="96" y="238" font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif"
+        font-size="13" letter-spacing="3.6" fill="#8C8574">DÉVELOPPEUR FULL-STACK</text>
+  <text x="1104" y="238" text-anchor="end"
+        font-family="Segoe UI, -apple-system, Helvetica Neue, Arial, sans-serif"
+        font-size="13" letter-spacing="3.6" fill="#8C8574">JAVA · TYPESCRIPT · PYTHON · VUE</text>
+
+  <!-- filet bas -->
+  <rect x="96" y="262" width="1008" height="1" fill="#D9D3C6"/>
+</svg>
