@@ -1,13 +1,14 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Timothée Berthelot — développeur full-stack" src="assets/header-light.svg" width="100%">
-</picture>
+<img alt="Timothée Berthelot — développeur full-stack" src="assets/header.svg" width="100%">
 
 <br>
 
 Développeur full-stack, en formation. En ce moment c'est du Java toute la journée. Le soir je bricole mes propres trucs, surtout des dashboards et des outils qui mâchent de la donnée financière.
 
 J'essaie aussi de finir un portfolio. Ça fait six tentatives. La septième sera la bonne.
+
+<br>
+
+<img alt="Calendrier de contributions" src="assets/contributions.svg" width="100%">
 
 <br>
 
@@ -37,4 +38,4 @@ Pas de badges colorés : vous savez déjà à quoi ressemble le logo Docker.
 <!-- Mets ici ce que tu veux exposer publiquement (mail, LinkedIn, portfolio).
      Je ne l'ai pas rempli tout seul : c'est ton adresse perso et ce repo est public. -->
 
-<sub>Cette page est écrite à la main. Pas de carte de stats, pas de serpent qui mange mes commits.</sub>
+<sub>Le panneau de contributions est généré par <a href="scripts/contrib-panel.ps1">mon propre script</a>, relancé chaque nuit par une GitHub Action. Pas de service tiers, pas de carte de stats empruntée.</sub>
