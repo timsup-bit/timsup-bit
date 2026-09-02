@@ -1,8 +1,8 @@
-<img alt="Timothée Berthelot — développeur full-stack" src="assets/header.svg" width="100%">
+<img alt="Timothée Berthelot" src="assets/header.svg" width="100%">
 
 <br>
 
-Développeur full-stack, en formation. En ce moment c'est du Java toute la journée. Le soir je bricole mes propres trucs, surtout des dashboards et des outils qui mâchent de la donnée financière.
+Étudiant. En ce moment c'est du Java toute la journée. Le soir je bricole mes propres trucs, surtout des dashboards et des outils qui mâchent de la donnée financière.
 
 J'essaie aussi de finir un portfolio. Ça fait six tentatives. La septième sera la bonne.
 
