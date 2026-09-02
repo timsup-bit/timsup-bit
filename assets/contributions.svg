@@ -400,7 +400,7 @@
   <rect x="958" y="118" width="13" height="13" fill="#14171D"><title>2026-08-30 : 0</title></rect>
   <rect x="958" y="134" width="13" height="13" fill="#75162A"><title>2026-08-31 : 2</title></rect>
   <rect x="958" y="150" width="13" height="13" fill="#E02338" filter="url(#emberglow)"><title>2026-09-01 : 4</title></rect>
-  <rect x="958" y="166" width="13" height="13" fill="#14171D"><title>2026-09-02 : 0</title></rect>
+  <rect x="958" y="166" width="13" height="13" fill="#3E1620"><title>2026-09-02 : 1</title></rect>
   <text x="966" y="256" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="10" fill="#4A515C">moins</text>
   <rect x="1006" y="246" width="11" height="11" fill="#14171D"/>
   <rect x="1022" y="246" width="11" height="11" fill="#3E1620"/>
@@ -410,11 +410,11 @@
   <text x="1112" y="256" text-anchor="end" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="10" fill="#4A515C">plus</text>
   <rect x="88" y="272" width="1024" height="1" fill="#2B313A"/>
   <text x="126" y="296" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="10" letter-spacing="2" fill="#4A515C">TOTAL</text>
-  <text x="126" y="324" font-family="Impact, Haettenschweiler, Arial Black, sans-serif" font-size="26" letter-spacing="1" fill="#C21B2E">24</text>
+  <text x="126" y="324" font-family="Impact, Haettenschweiler, Arial Black, sans-serif" font-size="26" letter-spacing="1" fill="#C21B2E">25</text>
   <text x="376" y="296" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="10" letter-spacing="2" fill="#4A515C">JOURS ACTIFS</text>
-  <text x="376" y="324" font-family="Impact, Haettenschweiler, Arial Black, sans-serif" font-size="26" letter-spacing="1" fill="#D6D6D0">8</text>
+  <text x="376" y="324" font-family="Impact, Haettenschweiler, Arial Black, sans-serif" font-size="26" letter-spacing="1" fill="#D6D6D0">9</text>
   <text x="626" y="296" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="10" letter-spacing="2" fill="#4A515C">S&#201;RIE MAX</text>
-  <text x="626" y="324" font-family="Impact, Haettenschweiler, Arial Black, sans-serif" font-size="26" letter-spacing="1" fill="#D6D6D0">2 j</text>
+  <text x="626" y="324" font-family="Impact, Haettenschweiler, Arial Black, sans-serif" font-size="26" letter-spacing="1" fill="#D6D6D0">3 j</text>
   <text x="876" y="296" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="10" letter-spacing="2" fill="#4A515C">MEILLEUR JOUR</text>
   <text x="876" y="324" font-family="Impact, Haettenschweiler, Arial Black, sans-serif" font-size="26" letter-spacing="1" fill="#D6D6D0">4</text>
   <rect width="1200" height="340" fill="url(#scan)"/>
