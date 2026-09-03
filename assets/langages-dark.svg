@@ -1,34 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 136" width="1200" height="136" role="img" aria-label="Repartition des langages">
 <rect width="1200" height="136" fill="#0d1117"/>
 <text x="6" y="30" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" letter-spacing="3.2" fill="#8b949e">LANGAGES</text>
-<text x="1194" y="30" text-anchor="end" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" letter-spacing="2" fill="#6e7681">12 D&#201;P&#212;TS &#183; 2 COMPTES &#183; 3 SEPTEMBRE 2026</text>
+<text x="1194" y="30" text-anchor="end" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" letter-spacing="2" fill="#6e7681">7 D&#201;P&#212;TS &#183; 1 COMPTES &#183; 3 SEPTEMBRE 2026</text>
 <rect x="6" y="62" width="1188" height="16" rx="3" fill="#161b22"/>
-  <rect x="6" y="62" width="334.9" height="16" rx="3" fill="#3572A5"><title>Python</title></rect>
-  <rect x="343.9" y="62" width="300.84" height="16" rx="3" fill="#F05138"><title>Swift</title></rect>
-  <rect x="647.74" y="62" width="230.88" height="16" rx="3" fill="#f1e05a"><title>JavaScript</title></rect>
-  <rect x="881.62" y="62" width="92.65" height="16" rx="3" fill="#e34c26"><title>HTML</title></rect>
-  <rect x="977.27" y="62" width="67.82" height="16" rx="3" fill="#3178c6"><title>TypeScript</title></rect>
-  <rect x="1048.09" y="62" width="65.81" height="16" rx="3" fill="#663399"><title>CSS</title></rect>
-  <rect x="1116.9" y="62" width="77.1" height="16" rx="3" fill="#8b949e"><title>autres</title></rect>
+  <rect x="6" y="62" width="780.6" height="16" rx="3" fill="#3572A5"><title>Python</title></rect>
+  <rect x="789.6" y="62" width="158.07" height="16" rx="3" fill="#3178c6"><title>TypeScript</title></rect>
+  <rect x="950.67" y="62" width="67.56" height="16" rx="3" fill="#ff5a03"><title>Astro</title></rect>
+  <rect x="1021.23" y="62" width="48.23" height="16" rx="3" fill="#663399"><title>CSS</title></rect>
+  <rect x="1072.46" y="62" width="44.06" height="16" rx="3" fill="#41b883"><title>Vue</title></rect>
+  <rect x="1119.52" y="62" width="41.94" height="16" rx="3" fill="#b07219"><title>Java</title></rect>
+  <rect x="1164.46" y="62" width="29.55" height="16" rx="3" fill="#8b949e"><title>autres</title></rect>
   <rect x="6" y="109" width="8" height="8" rx="2" fill="#3572A5"/>
   <text x="21" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">Python</text>
-  <text x="76.6" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">29%</text>
-  <rect x="125.7" y="109" width="8" height="8" rx="2" fill="#F05138"/>
-  <text x="140.7" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">Swift</text>
-  <text x="188.7" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">26%</text>
-  <rect x="237.8" y="109" width="8" height="8" rx="2" fill="#f1e05a"/>
-  <text x="252.8" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">JavaScript</text>
-  <text x="338.8" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">20%</text>
-  <rect x="387.9" y="109" width="8" height="8" rx="2" fill="#e34c26"/>
-  <text x="402.9" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">HTML</text>
-  <text x="443.3" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">7.9%</text>
-  <rect x="500.1" y="109" width="8" height="8" rx="2" fill="#3178c6"/>
-  <text x="515.1" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">TypeScript</text>
-  <text x="601.1" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">5.8%</text>
-  <rect x="657.9" y="109" width="8" height="8" rx="2" fill="#663399"/>
-  <text x="672.9" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">CSS</text>
-  <text x="705.7" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">5.6%</text>
-  <rect x="762.5" y="109" width="8" height="8" rx="2" fill="#8b949e"/>
-  <text x="777.5" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">autres</text>
-  <text x="833.1" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">6.6%</text>
+  <text x="76.6" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">67%</text>
+  <rect x="125.7" y="109" width="8" height="8" rx="2" fill="#3178c6"/>
+  <text x="140.7" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">TypeScript</text>
+  <text x="226.7" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">14%</text>
+  <rect x="275.8" y="109" width="8" height="8" rx="2" fill="#ff5a03"/>
+  <text x="290.8" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">Astro</text>
+  <text x="338.8" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">5.8%</text>
+  <rect x="395.6" y="109" width="8" height="8" rx="2" fill="#663399"/>
+  <text x="410.6" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">CSS</text>
+  <text x="443.4" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">4.1%</text>
+  <rect x="500.2" y="109" width="8" height="8" rx="2" fill="#41b883"/>
+  <text x="515.2" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">Vue</text>
+  <text x="548" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">3.8%</text>
+  <rect x="604.8" y="109" width="8" height="8" rx="2" fill="#b07219"/>
+  <text x="619.8" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">Java</text>
+  <text x="660.2" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">3.6%</text>
+  <rect x="717" y="109" width="8" height="8" rx="2" fill="#8b949e"/>
+  <text x="732" y="117" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#e6edf3">autres</text>
+  <text x="787.6" y="117" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" fill="#6e7681">2.5%</text>
 </svg>
