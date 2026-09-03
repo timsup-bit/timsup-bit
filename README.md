@@ -46,6 +46,12 @@ petit, exécution propre, déployée.
   <img alt="Répartition des langages sur mes dépôts publics" src="assets/langages-light.svg" width="100%">
 </picture>
 
+## Ailleurs
+
+Mon second compte, [@timsup777](https://github.com/timsup777), garde les projets livrés avant
+celui-ci — dont [Affûteur à Vélo](https://github.com/timsup777/AFT), un site vitrine pour un
+artisan affûteur rémouleur qui travaille à domicile dans Paris ([en ligne](https://aft-opal.vercel.app)).
+
 <!-- Contact : décommente et complète avec ce que tu veux rendre public.
      Ce dépôt est visible par tout le monde, je n'ai rien rempli à ta place.
 ## Contact
