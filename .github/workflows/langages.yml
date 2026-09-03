@@ -27,7 +27,8 @@ jobs:
         shell: pwsh
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./scripts/langages.ps1 -Login ${{ github.repository_owner }}
+        # Les comptes et la liste d'exclusion vivent dans le script, pas ici.
+        run: ./scripts/langages.ps1
 
       - name: Publier si le panneau a change
         run: |
