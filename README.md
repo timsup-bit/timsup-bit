@@ -34,9 +34,9 @@ petit, exécution propre, déployée.
 
 ## Stack
 
-**Langages** — Java · TypeScript · Python · JavaScript
-**Back** — FastAPI · Fastify · Zod · Node
-**Front** — Vue 3 · Astro · Vite · Tailwind
+**Langages** — Java · TypeScript · Python · JavaScript<br>
+**Back** — FastAPI · Fastify · Zod · Node<br>
+**Front** — Vue 3 · Astro · Vite · Tailwind<br>
 **Outils** — Docker · Git · GitHub Actions · scikit-learn · PowerShell
 
 ## Répartition du code
