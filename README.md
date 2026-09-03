@@ -1,41 +1,60 @@
-<img alt="Timothée Berthelot" src="assets/header.svg" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Timothée Berthelot — étudiant développeur" src="assets/header-light.svg" width="100%">
+</picture>
 
-<br>
+Étudiant développeur. Java en journée ; le reste du temps, des outils qui transforment
+de la donnée financière en quelque chose de lisible — scores, tableaux de bord, backtests.
 
-Étudiant. En ce moment c'est du Java toute la journée. Le soir je bricole mes propres trucs, surtout des dashboards et des outils qui mâchent de la donnée financière.
+**En ce moment** — Crash Radar AI, un score de risque de marché de 0 à 100 recalculé en continu.
 
-J'essaie aussi de finir un portfolio. Ça fait six tentatives. La septième sera la bonne.
+## Projets
 
-<br>
+### [Crash Radar AI](https://github.com/timsup-bit/DASH-CRASH)
 
-<img alt="Calendrier de contributions" src="assets/contributions.svg" width="100%">
+Tableau de bord qui surveille les marchés et publie un score de risque de crash sur 100.
+Six familles de signaux agrégées — actions, crédit, volatilité, liquidité, macro, sentiment —
+avec un backtester et un moteur de news intégrés. Le projet sur lequel je passe le plus de temps.
 
-<br>
+`Python` `FastAPI` `scikit-learn` `Docker`
 
-### Ce sur quoi j'ai bossé
+### [CFP](https://github.com/timsup-bit/CFP-GROUPE)
 
-**Crash Radar AI** — Python, FastAPI, scikit-learn, Docker<br>
-Un tableau de bord qui surveille les marchés et sort un score de risque de crash sur 100. Il agrège actions, crédit, volatilité, liquidité, macro et sentiment. Il y a un backtester et un moteur de news dedans. Le projet dont je suis le plus content. [→ DASH-CRASH](https://github.com/timsup-bit/DASH-CRASH)
+API et interface d'une application immobilière, en monorepo. Projet de groupe, typé de bout
+en bout : les schémas Zod servent de contrat unique entre le back et le front.
 
-**CFP** — TypeScript, Fastify, Zod, Vite<br>
-API et front d'une application immobilière. Projet de groupe, monorepo back/front. La première fois que j'ai vraiment typé quelque chose de bout en bout. [→ CFP-GROUPE](https://github.com/timsup-bit/CFP-GROUPE)
+`TypeScript` `Fastify` `Zod` `Vite`
 
-**Bénévolat** — Vue 3, Vite, Tailwind<br>
-Une plateforme pour mettre en relation associations et bénévoles. Petit projet, mais propre. [→ BNV](https://github.com/timsup-bit/BNV)
+### [Bénévolat](https://github.com/timsup-bit/BNV) · [démo en ligne](https://bnv-ten.vercel.app)
 
-<br>
+Plateforme de mise en relation entre associations et bénévoles. Périmètre volontairement
+petit, exécution propre, déployée.
 
-### Les outils
+`Vue 3` `Vite` `Tailwind`
 
-Java · TypeScript · Python · Vue · Astro · Tailwind · Fastify · FastAPI · Docker · Git
+## Stack
 
-Pas de badges colorés : vous savez déjà à quoi ressemble le logo Docker.
+**Langages** — Java · TypeScript · Python · JavaScript
+**Back** — FastAPI · Fastify · Zod · Node
+**Front** — Vue 3 · Astro · Vite · Tailwind
+**Outils** — Docker · Git · GitHub Actions · scikit-learn · PowerShell
 
-<br>
+## Répartition du code
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/langages-dark.svg">
+  <img alt="Répartition des langages sur mes dépôts publics" src="assets/langages-light.svg" width="100%">
+</picture>
+
+<!-- Contact : décommente et complète avec ce que tu veux rendre public.
+     Ce dépôt est visible par tout le monde, je n'ai rien rempli à ta place.
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/…) · [Portfolio](https://…) · [Mail](mailto:…)
+-->
 
 ---
 
-<!-- Mets ici ce que tu veux exposer publiquement (mail, LinkedIn, portfolio).
-     Je ne l'ai pas rempli tout seul : c'est ton adresse perso et ce repo est public. -->
-
-<sub>Le panneau de contributions est généré par <a href="scripts/contrib-panel.ps1">mon propre script</a>, relancé chaque nuit par une GitHub Action. Pas de service tiers, pas de carte de stats empruntée.</sub>
+<sub>Le bandeau et le panneau des langages sont deux SVG maison, en version claire et sombre.
+Le panneau est recalculé chaque nuit depuis l'API GitHub par
+<a href="scripts/langages.ps1">mon propre script</a>, via une GitHub Action — pas de service tiers.</sub>
