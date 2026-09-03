@@ -1,12 +1,22 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Timothée Berthelot — étudiant développeur" src="assets/header-light.svg" width="100%">
+  <img alt="Timothée Berthelot — développeur iOS, BTS SIO SLAM" src="assets/header-light.svg" width="100%">
 </picture>
 
-Étudiant développeur. Java en journée ; le reste du temps, des outils qui transforment
-de la donnée financière en quelque chose de lisible — scores, tableaux de bord, backtests.
+Étudiant en BTS SIO SLAM à Montreuil, après une reconversion depuis le BTP. Je développe
+des applications iOS natives en Swift, et je vise un bachelor en cybersécurité pour aller
+vers le pentest.
 
-**En ce moment** — Crash Radar AI, un score de risque de marché de 0 à 100 recalculé en continu.
+**En ce moment** — deux applications iOS : Mon Mental, du suivi psychologique avec appels
+audio et vidéo, et Trouvaille, de la mise en relation. En parallèle, Crash Radar AI, un
+score de risque de marché de 0 à 100.
+
+<a href="https://www.colletdigital.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/bouton-portfolio-dark.svg">
+    <img alt="Mon portfolio, colletdigital.com" src="assets/bouton-portfolio-light.svg" width="100%">
+  </picture>
+</a>
 
 ## Projets
 
@@ -34,10 +44,11 @@ petit, exécution propre, déployée.
 
 ## Stack
 
-**Langages** — Java · TypeScript · Python · JavaScript<br>
-**Back** — FastAPI · Fastify · Zod · Node<br>
+**Mobile** — Swift · SwiftUI · UIKit · Xcode<br>
+**Web & back** — TypeScript · Python · Java · PHP · Node · Fastify · FastAPI<br>
 **Front** — Vue 3 · Astro · Vite · Tailwind<br>
-**Outils** — Docker · Git · GitHub Actions · scikit-learn · PowerShell
+**Données & outils** — SQL · PostgreSQL · Docker · Git · GitHub Actions
+
 
 ## Répartition du code
 
@@ -59,12 +70,11 @@ affûteur rémouleur qui travaille à domicile dans Paris ([en ligne](https://af
   </picture>
 </a>
 
-<!-- Contact : décommente et complète avec ce que tu veux rendre public.
-     Ce dépôt est visible par tout le monde, je n'ai rien rempli à ta place.
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/…) · [Portfolio](https://…) · [Mail](mailto:…)
--->
+[Portfolio](https://www.colletdigital.com) · [LinkedIn](https://www.linkedin.com/in/timoth%C3%A9e-collet-457b96238)
+
+Disponible pour des projets — je facture en micro-entreprise.
 
 ---
 
