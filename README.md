@@ -48,9 +48,16 @@ petit, exécution propre, déployée.
 
 ## Ailleurs
 
-Mon second compte, [@timsup777](https://github.com/timsup777), garde les projets livrés avant
-celui-ci — dont [Affûteur à Vélo](https://github.com/timsup777/AFT), un site vitrine pour un
-artisan affûteur rémouleur qui travaille à domicile dans Paris ([en ligne](https://aft-opal.vercel.app)).
+J'ai un second compte pour les projets livrés avant celui-ci — dont
+[Affûteur à Vélo](https://github.com/timsup777/AFT), un site vitrine pour un artisan
+affûteur rémouleur qui travaille à domicile dans Paris ([en ligne](https://aft-opal.vercel.app)).
+
+<a href="https://github.com/timsup777">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/bouton-vers-timsup777-dark.svg">
+    <img alt="Voir mon second compte, @timsup777" src="assets/bouton-vers-timsup777-light.svg" width="100%">
+  </picture>
+</a>
 
 <!-- Contact : décommente et complète avec ce que tu veux rendre public.
      Ce dépôt est visible par tout le monde, je n'ai rien rempli à ta place.
