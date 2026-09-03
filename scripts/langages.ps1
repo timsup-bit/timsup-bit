@@ -2,9 +2,16 @@
 # Source : octets de code par langage sur les depots publics non forkes, via l'API GitHub.
 # Tourne en local (pwsh / Windows PowerShell) et sur GitHub Actions.
 param(
-  [string]$Login = "timsup-bit",
+  [string[]]$Logins = @("timsup-bit", "timsup777"),
   [string]$OutDir = "assets",
-  [string[]]$Exclure = @()      # noms de depots a ne pas compter
+  # Brouillons de portfolio generes depuis des templates, et depots vides : ils pesent
+  # plus lourd que le code ecrit a la main et faussaient completement la repartition.
+  [string[]]$Exclure = @(
+    "PORTFOLIO", "Timoth-e-berthelot-portfolio2025", "Portfolio-timoth-e-berthelott",
+    "Portfolio-Timoth-e-Berthelot", "auto-annotated-portfolio", "auto-annotated-portfolio-1",
+    "Timoth-e-berthelot", "next-netlify-starter", "ubiquitous-palm-tree",
+    "Test-de-repository-pour-mon-programme-de-test.", "AFTV", "BACK", "MM2", "mon-mental"
+  )
 )
 $ErrorActionPreference = "Stop"
 
@@ -27,7 +34,11 @@ query($login:String!){
 }
 '@
 
-$tous  = (& $gh api graphql -f login=$Login -f query=$query | ConvertFrom-Json).data.user.repositories.nodes
+# Les deux comptes comptent : le code iOS vit sur le second, le reste sur le premier.
+$tous = @()
+foreach ($login in $Logins) {
+  $tous += (& $gh api graphql -f login=$login -f query=$query | ConvertFrom-Json).data.user.repositories.nodes
+}
 $repos = $tous | Where-Object { -not $_.isArchived -and $Exclure -notcontains $_.name }
 
 $octets  = @{}
@@ -90,6 +101,7 @@ $moisFr = @('JANVIER','F&#201;VRIER','MARS','AVRIL','MAI','JUIN','JUILLET','AO&#
 $now    = [datetime]::UtcNow
 $maj    = "{0} {1} {2}" -f $now.Day, $moisFr[$now.Month - 1], $now.Year
 $nbDep  = $repos.Count
+$nbCpt  = $Logins.Count
 
 foreach ($t in $themes.Keys) {
   $c = $themes[$t]
@@ -101,7 +113,7 @@ foreach ($t in $themes.Keys) {
 
   # titre
   & $add ("<text x=""$X0"" y=""30"" font-family=""$MONO"" font-size=""12.5"" letter-spacing=""3.2"" fill=""$($c.muted)"">LANGAGES</text>")
-  $droite = "$nbDep D&#201;P&#212;TS ACTIFS &#183; $maj"
+  $droite = "$nbDep D&#201;P&#212;TS &#183; $nbCpt COMPTES &#183; $maj"
   & $add ("<text x=""$X1"" y=""30"" text-anchor=""end"" font-family=""$MONO"" font-size=""12.5"" letter-spacing=""2"" fill=""$($c.dim)"">$droite</text>")
 
   # piste + segments
@@ -144,4 +156,4 @@ foreach ($t in $themes.Keys) {
   Write-Host "ecrit $path"
 }
 
-Write-Host ("total = {0:N0} octets sur {1} depots" -f $total, $nbDep)
+Write-Host ("total = {0:N0} octets sur {1} depots, {2} comptes" -f $total, $nbDep, $nbCpt)
