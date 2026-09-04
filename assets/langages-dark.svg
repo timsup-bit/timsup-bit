@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 136" width="1200" height="136" role="img" aria-label="Repartition des langages">
 <rect width="1200" height="136" fill="#0d1117"/>
 <text x="6" y="30" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" letter-spacing="3.2" fill="#8b949e">LANGAGES</text>
-<text x="1194" y="30" text-anchor="end" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" letter-spacing="2" fill="#6e7681">12 D&#201;P&#212;TS &#183; 2 COMPTES &#183; 3 SEPTEMBRE 2026</text>
+<text x="1194" y="30" text-anchor="end" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="12.5" letter-spacing="2" fill="#6e7681">12 D&#201;P&#212;TS &#183; 2 COMPTES &#183; 4 SEPTEMBRE 2026</text>
 <rect x="6" y="62" width="1188" height="16" rx="3" fill="#161b22"/>
   <rect x="6" y="62" width="334.65" height="16" rx="3" fill="#3572A5"><title>Python</title></rect>
   <rect x="343.65" y="62" width="300.62" height="16" rx="3" fill="#F05138"><title>Swift</title></rect>
